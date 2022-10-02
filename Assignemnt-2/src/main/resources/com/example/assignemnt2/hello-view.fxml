@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="279.0" prefWidth="520.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignemnt2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox prefHeight="15.0" prefWidth="292.0">
+      <children>
+         <Label prefHeight="17.0" prefWidth="194.0" text="Number of days rented:" />
+         <TextField fx:id="numberOfDaysRented" prefHeight="25.0" prefWidth="314.0" />
+      </children>
+   </HBox>
+   <HBox prefHeight="32.0" prefWidth="450.0">
+      <children>
+         <Label prefHeight="17.0" prefWidth="181.0" text="Number of kilometers driven: " />
+         <TextField fx:id="numbersOfkilometersDriven" prefHeight="25.0" prefWidth="298.0" />
+      </children>
+   </HBox>
+   <HBox prefHeight="11.0" prefWidth="370.0">
+      <children>
+         <CheckBox fx:id="checkBoxForFullTank" mnemonicParsing="false" prefHeight="12.0" prefWidth="319.0" text="Fuel tank not full when returned" />
+      </children>
+   </HBox>
+   <HBox prefHeight="21.0" prefWidth="370.0">
+      <children>
+         <Label prefHeight="17.0" prefWidth="198.0" text="Number of liters: " />
+         <TextField fx:id="numberOfLiters" prefHeight="25.0" prefWidth="321.0" />
+      </children>
+   </HBox>
+   <ButtonBar prefHeight="33.0" prefWidth="303.0">
+     <buttons>
+       <Button onAction="#onCalculatePayementButtonClicked"  mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Calculate payment" />
+     </buttons>
+   </ButtonBar>
+   <HBox prefHeight="28.0" prefWidth="370.0">
+      <children>
+         <Label prefHeight="17.0" prefWidth="176.0" text="Amount due:" />
+         <Label  fx:id="totalAmount" prefHeight="17.0" prefWidth="144.0" text="Label" />
+      </children>
+   </HBox>
+</VBox>
