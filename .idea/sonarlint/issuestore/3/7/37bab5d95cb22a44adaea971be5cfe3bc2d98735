@@ -1,0 +1,18 @@
+
+r	java:S116	"XRename this field "PRICE_PER_DAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¼¡âÿÿÿÿÿ
+n	java:S116
+"TRename this field "DAY_LIMIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÿ¢ùÿÿÿÿ
+t	java:S116"_Rename this field "EXTRA_KILOMETER_COST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë…çº
+m	java:S116"XRename this field "PRICE_OF_FUEL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îó•á
+<
+java:S1170	"!Make this final field static too.(Ó¼¡âÿÿÿÿÿ
+<
+java:S1170
+"!Make this final field static too.(ôÿ¢ùÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(ë…çº
+7
+java:S1170"!Make this final field static too.(îó•á
+H
+java:S1068
+"-Remove this unused "DAY_LIMIT" private field.(ôÿ¢ùÿÿÿÿ
