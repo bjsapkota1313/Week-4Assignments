@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="433.0" prefWidth="485.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inholland.nl.assignment3.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <HBox prefHeight="84.0" prefWidth="283.0">
+        <children>
+            <Button fx:id="btnX1Y1" mnemonicParsing="false" onAction="#onBtnX1Y1Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+         <VBox prefHeight="84.0" prefWidth="34.0" />
+         <Button fx:id="btnX1Y2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnX1Y2Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+         <VBox layoutX="143.0" layoutY="10.0" prefHeight="84.0" prefWidth="34.0" />
+         <Button fx:id="btnX1Y3" layoutX="177.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnX1Y3Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+        </children>
+    </HBox>
+   <HBox layoutX="30.0" layoutY="62.0" prefHeight="84.0" prefWidth="283.0">
+      <children>
+         <Button fx:id="btnX2Y1" mnemonicParsing="false" onAction="#onBtnX2Y1Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+         <VBox prefHeight="84.0" prefWidth="34.0" />
+         <Button fx:id="btnX2Y2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnX2Y2Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+         <VBox layoutX="143.0" layoutY="10.0" prefHeight="84.0" prefWidth="34.0" />
+         <Button fx:id="btnX2Y3" layoutX="177.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnX2Y3Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+      </children>
+   </HBox>
+    <HBox layoutX="30.0" layoutY="30.0" prefHeight="84.0" prefWidth="283.0">
+        <children>
+            <Button fx:id="btnX3Y1" mnemonicParsing="false" onAction="#onBtnX3Y1Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+            <VBox prefHeight="84.0" prefWidth="34.0" />
+            <Button fx:id="btnX3Y2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnX3Y2Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+            <VBox layoutX="143.0" layoutY="10.0" prefHeight="84.0" prefWidth="34.0" />
+            <Button fx:id="btnX3Y3" layoutX="177.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnX3Y3Clicked" prefHeight="84.0" prefWidth="133.0" text="_">
+            <font>
+               <Font size="40.0" />
+            </font></Button>
+        </children>
+    </HBox>
+   <HBox prefHeight="19.0" prefWidth="445.0">
+      <children>
+         <Label fx:id="lblCurrentTurn"/>
+      </children>
+   </HBox>
+
+</VBox>
