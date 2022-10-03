@@ -8,10 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Assignemnt-2" />
         <module name="Week-4Assignment" />
+        <module name="assignment-3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Assignemnt-2" target="17" />
+      <module name="assignment-3" target="17" />
+      <module name="vhvh" target="17" />
+      <module name="Week-3 Redo" target="17" />
       <module name="Week-4Assignment" target="17" />
     </bytecodeTargetLevel>
   </component>
